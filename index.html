@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — No Shorts for YouTube</title>
+    <style>
+      body {
+        max-width: 34rem;
+        margin: 3rem auto;
+        padding: 0 1.25rem 4rem;
+        font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        color: #1c1c1c;
+        background: #fff;
+      }
+      h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+      .updated { color: #6a6a6a; font-size: 0.85rem; margin-top: 0; }
+      h2 { font-size: 1.05rem; margin-top: 2rem; }
+      code { background: #f1f1f1; padding: 0.1em 0.35em; border-radius: 3px; font-size: 0.9em; }
+      ul { padding-left: 1.2rem; }
+      /* Must come last: these override the element rules above at equal
+         specificity, so declaration order is what decides the winner. */
+      @media (prefers-color-scheme: dark) {
+        body { color: #e8e8e8; background: #191919; }
+        code { background: #2a2a2a; color: #e8e8e8; }
+        .updated { color: #9a9a9a; }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy Policy — No Shorts for YouTube</h1>
+    <p class="updated">Last updated: 12 August 2026</p>
+
+    <p>
+      No Shorts for YouTube does not collect, transmit, sell, or share any
+      personal or usage data. There is no analytics, no telemetry, no tracking,
+      and no account or sign-in of any kind.
+    </p>
+
+    <h2>What the extension stores</h2>
+    <p>
+      The only data it stores is your four on/off preferences — whether to hide
+      Shorts in the feed, in search results, in navigation, and whether to
+      redirect Shorts links. These are saved with Chrome's
+      <code>storage.sync</code> API, which keeps them in your own Chrome profile
+      and, if you have Chrome Sync enabled, syncs them across your signed-in
+      Chrome browsers via your Google account. The developer has no access to
+      this data.
+    </p>
+
+    <h2>What it does on YouTube pages</h2>
+    <ul>
+      <li>
+        Applies a stylesheet that hides Shorts elements. This changes only how
+        the page is displayed in your browser.
+      </li>
+      <li>
+        If the redirect option is on, rewrites <code>/shorts/&lt;id&gt;</code>
+        URLs to <code>/watch?v=&lt;id&gt;</code> so the video opens in YouTube's
+        normal player. This navigation happens entirely within your browser.
+      </li>
+    </ul>
+    <p>
+      The extension does not read your watch history, your account details, your
+      search queries, or the content of any page, and it does not modify or
+      inspect network traffic.
+    </p>
+
+    <h2>Servers and third parties</h2>
+    <p>
+      The extension makes no network requests of its own. It has no backend
+      server. No data is shared with the developer or with any third party.
+    </p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li>
+        <code>storage</code> — to remember your four toggle settings between
+        sessions.
+      </li>
+      <li>
+        <code>*://*.youtube.com/*</code> — to apply the hiding stylesheet on
+        YouTube pages. The extension runs on no other site.
+      </li>
+    </ul>
+
+    <h2>Removing your data</h2>
+    <p>
+      Uninstalling the extension removes its stored settings from your browser.
+      No copy exists anywhere else.
+    </p>
+
+    <h2>Changes and contact</h2>
+    <p>
+      If this policy changes, the updated version will be posted at this URL with
+      a new date above. Questions can be sent to
+      <a href="mailto:noshorts.extension@gmail.com">noshorts.extension@gmail.com</a>.
+    </p>
+
+    <p>
+      This extension is not affiliated with, endorsed by, or sponsored by Google
+      LLC or YouTube.
+    </p>
+  </body>
+</html>
